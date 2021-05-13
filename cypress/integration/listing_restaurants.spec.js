@@ -14,7 +14,7 @@ describe('Listing restaurants', () => {
       ],
     });
 
-    cy.visit('/');
+    cy.visit('http://localhost:3000/');
     cy.contains(sushiPlace);
     cy.contains(pizzaPlace);
   });
